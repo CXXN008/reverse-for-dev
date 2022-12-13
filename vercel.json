@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {"source": "/(.*)", "destination": "https://admin.airbridgedev.com/$1"},
-    {"source": "/mock/(.*)", "destination": "http://8.219.111.93:3000/totalFunds/$1"}
+    {"source": "/mock/(.*)", "destination": "http://8.219.111.93:3000/$1"}
   ],
   "headers": [
     {
